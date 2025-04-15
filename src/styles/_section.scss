@@ -1,0 +1,32 @@
+@use 'variaveis';
+
+.card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.3)), url(https://jpimg.com.br/uploads/2024/08/7-dicas-para-combinar-o-verde-com-outras-cores-na-decoracao.jpg);
+    padding: 1em 4em;
+    height: 100vh;
+
+    &__container {
+        
+    }
+    
+    &__content {
+        display: block;
+        padding:  26vh 43vh;
+
+        &--title {
+            color: variaveis.$corTextoPrimario;
+            padding-bottom: .3em;
+            font-size: 2.6em;
+            text-align: center;
+        }
+
+        span {
+            color: variaveis.$corTextoPrimario;
+            padding-left: 32em;
+            text-align: center;
+        }
+    }
+}

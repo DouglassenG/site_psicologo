@@ -1,0 +1,34 @@
+@use 'variaveis';
+
+.header {
+    background-color: variaveis.$corFundoHeader;
+    padding: 2em 4em;
+    font-size: 1em;
+
+    &__container{
+        display: flex;
+    }
+    
+    &__title{
+        
+    }
+
+    &__links{
+        align-items: center;
+        padding-left: 18em;
+        text-decoration: none;
+        display: flex;
+        list-style: none;
+        gap: 2em;
+        font-size:large;
+
+        &__item{
+            display: flex;
+            
+            &__button {
+                text-decoration: none;
+            }
+        }
+    }
+}
+

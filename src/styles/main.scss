@@ -1,0 +1,18 @@
+@use 'variaveis';
+@use 'header';
+@use 'section';
+@use 'section2';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+.title {
+    font-family: libre baskerville, sans-serif;
+}
+.button {
+    color: variaveis.$corFundoBotao;
+}
